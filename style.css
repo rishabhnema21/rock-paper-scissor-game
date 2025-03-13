@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color:rgb(2, 2, 48);
+}
+
+h1 {
+    background-color: rgb(182, 148, 213);
+    height: 5rem;
+    align-content: center;
+    color: white;
+}
+
+span {
+    color: rgb(4, 4, 75);
+}
+
+.choice {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.choice img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+    /* background-color: antiquewhite; */
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 5rem;
+    font-size: 2rem;
+}
+
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 2rem;
+}
+
+.msg {
+    margin-top: 4rem;
+    background-color: rgb(182, 148, 213);
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(4, 4, 75);
+}
+
+#reset {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgb(182, 148, 213);
+    color: rgb(4, 4, 75);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: rgb(161, 106, 211);
+}

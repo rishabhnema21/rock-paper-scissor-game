@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <h1>Welcome to <span>Stone-Paper-Scissor Game</span></h1>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="images/rock.png" alt="Rock">
+            </div>
+
+            <div class="choice" id="paper">
+                <img src="images/paper.png" alt="Rock">
+            </div>
+
+            <div class="choice" id="scissor">
+                <img src="images/scissors.png" alt="Rock">
+            </div>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+
+        <div class="msg-container">
+            <p class="msg">It's Your Turn</p>
+        </div>
+        <button id="reset">Reset</button>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
